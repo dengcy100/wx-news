@@ -1,0 +1,32 @@
+<view class="container">
+    <view style="width:100%">
+        <progress percent="100" stroke-width="2" active color="#CE0000"/>
+        <swiper indicator-dots="true" autoplay="true">
+            <block wx:for="{{imgUrls}}">
+                <swiper-item>
+                    <image src="{{item}}" style="width:100%" />
+                </swiper-item>        
+            </block>
+        </swiper>
+    </view>
+     <view style="width:100%;padding-bottom:260rpx">
+        <scroll-view scroll-y="true" style="height:100%;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+            <block wx:for="{{arr}}">  
+            <navigator url="../newscontent/newscontent?title=navigate" hover-class="navigator-hover">
+                <view style="display:flex;flex-direction: row;align-items: center;justify-content: space-between;width:100%;border-bottom:1px solid #cccccc;padding:10rpx">
+                        <view style="width:20%;margin-left:10rpx;">
+                            <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" style="width:100%;height:50px;" />
+                        </view>
+                        <view style="display:flex;flex-direction:column;width:73%;font-size:14px;margin-right:15px;word-break:break-all;">
+                            <view style="font-size:14px">特朗普提名议员辛克任内政部长，曾在海豹突击队服役22年</view>
+                            <view style="display:flex;flex-direction:row;justify-content:space-between;font-size:12px;color:#cccccc;margin-top:5px">
+                                <text>新闻热点</text><text>807跟帖</text>
+                            </view>
+                        </view>
+                    </view>
+            </navigator>            
+            </block>
+      </scroll-view> 
+     </view>
+    
+</view>

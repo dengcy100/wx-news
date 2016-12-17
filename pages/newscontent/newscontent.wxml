@@ -1,0 +1,51 @@
+<view class="container">
+    <view style="display:flex;flex-direction:column;border-bottom:1px dashed;width:100%;">
+        <view style="width:95%;padding:10px">
+            <text>特朗普提名辛克任内政部长 曾在海报突击队服役</text>
+        </view>
+        <view style="display:flex;flex-direction:row;justify-content:space-between;width:95%;padding:0px 10px 10px 10px">
+            <text style="font-size:14px;color:#cccccc">澎湃新闻网</text>
+            <text style="font-size:14px;color:#cccccc">12-16:09:21</text>
+        </view>
+    </view>
+    <view style="width:95%;margin-top:10px;padding-bottom:50px">
+    <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" style="width:100%;"></image>
+        <text style="font-size:14px;">
+    当地时间2016年12月12日，美国纽约，美国候任总统特朗普与国会众议员莱恩 辛克（Ryan Zinke）在特朗普大厦会面。
+
+据美联社12月15日消息，美国当选总统特朗普当日正式宣布，将提名来自蒙大拿州的国会众议员莱恩 辛克（Ryan Zinke）担任内政部长。
+
+据美国媒体报道，现年55岁的辛克，曾经是美军精锐海豹突击队（SEAL）的队员，服役22年，以中校（Commander）军阶退伍。目前这一提名仍需参议院确认，如果辛克当选，特朗普内阁将再添一名退伍军人。
+
+辛克是众议院自然资源委员会（Natural Resources Committee）和军事委员会（Armed Services Committee）的成员，今年夏天，因对土地控制权议题的立场与共和党全国代表大会不同而辞去代表身份。
+
+当时辛克称共和党党纲是“更为分裂而不是团结”，该党纲主张联邦政府应将其控制的部分土地移转给州政府，但辛克反对这一主张。
+
+分析认为，辛克当选后，将会推进特朗普希望开放联邦土地和水域用于化石燃料开发的政策，该政策与奥巴马政府过去八年来推行的环境政策完全相反。
+
+内政部在美国雇用超过7万人，管理超过20%联邦土地，包括黄石公园等国家级公园。
+
+原标题：特朗普提名议员辛克任内政部长，曾在海豹突击队服役22年
+        </text>
+    </view>
+    
+    <view style="width:100%;height:40px;position:fixed;bottom:0px;background:#fff">
+    <form bindsubmit="sendMessage">
+        <view class="input" style="border-top:1px solid #eff2f7;padding-top:4px;padding-left:10px">
+            <input class="text" bindinput="bindKeyInput" type="text" name="message" placeholder="写跟帖" style="font-size:17px;border-radius:7px;width:400rpx;height:30px;background:#eeeeee;padding-left:15px;float:left"/>
+           <button type="default" formType="submit" class="submit" style="line-height:1.6;background:#CE0000;color:#ffffff;width:80px;height:30px;float:left;margin-left:10px;">
+                <text style="font-size:14px">发送</text>
+           </button>
+           
+             <navigator url="../comment/comment" hover-class="navigator-hover">
+                <view style="float:right;padding-right:10px">
+                    <text style="font-size:12px;color:#CE0000;" >1258</text>
+                </view>
+             </navigator>
+        </view>
+    </form>
+    </view>
+
+</view>
+
+
